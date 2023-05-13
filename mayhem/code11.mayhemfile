@@ -1,0 +1,6 @@
+project: barcoders
+target: code11
+duration: 300
+
+cmds:
+  - cmd: /code11

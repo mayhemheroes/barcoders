@@ -16,3 +16,9 @@ FROM --platform=linux/amd64 rustlang/rust:nightly
 COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/generate /
 
 COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/ean13 /
+
+COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/ean8 /
+
+COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/code11 /
+
+COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/code39 /

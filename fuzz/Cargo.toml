@@ -26,3 +26,21 @@ name = "ean13"
 path = "fuzz_targets/ean13.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "ean8"
+path = "fuzz_targets/ean8.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "code11"
+path = "fuzz_targets/code11.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "code39"
+path = "fuzz_targets/code39.rs"
+test = false
+doc = false
