@@ -44,3 +44,9 @@ name = "code39"
 path = "fuzz_targets/code39.rs"
 test = false
 doc = false
+
+[[bin]]
+name = "code93"
+path = "fuzz_targets/code93.rs"
+test = false
+doc = false

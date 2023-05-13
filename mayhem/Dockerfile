@@ -22,3 +22,5 @@ COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/ean8
 COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/code11 /
 
 COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/code39 /
+
+COPY --from=builder /barcoders/fuzz/target/x86_64-unknown-linux-gnu/release/code93 /

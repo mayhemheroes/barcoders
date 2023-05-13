@@ -59,6 +59,7 @@ jobs:
         - mayhem/ean8.mayhemfile
         - mayhem/code11.mayhemfile
         - mayhem/code39.mayhemfile
+        - mayhem/code93.mayhemfile
     steps:
     - uses: actions/checkout@v3
     - name: Start analysis for ${{ matrix.mayhemfile }}
