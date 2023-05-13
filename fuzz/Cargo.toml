@@ -1,0 +1,28 @@
+[package]
+name = "barcoders-fuzz"
+version = "0.1.0"
+authors = ["Automatically generated"]
+publish = false
+edition = "2018"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+barcoders = { path = "..", features = ["ascii"] }
+
+[workspace]
+members = ["."]
+
+[[bin]]
+name = "generate"
+path = "fuzz_targets/generate.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "ean13"
+path = "fuzz_targets/ean13.rs"
+test = false
+doc = false
