@@ -1,0 +1,6 @@
+project: barcoders
+target: code93
+duration: 300
+
+cmds:
+  - cmd: /code93

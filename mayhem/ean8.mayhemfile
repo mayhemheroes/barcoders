@@ -1,0 +1,6 @@
+project: barcoders
+target: ean8
+duration: 300
+
+cmds:
+  - cmd: /ean8

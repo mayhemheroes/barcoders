@@ -1,0 +1,6 @@
+project: barcoders
+target: generate
+duration: 300
+
+cmds:
+  - cmd: /generate

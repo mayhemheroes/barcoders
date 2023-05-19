@@ -1,0 +1,6 @@
+project: barcoders
+target: ean13
+duration: 300
+
+cmds:
+  - cmd: /ean13
